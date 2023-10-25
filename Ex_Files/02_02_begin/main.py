@@ -9,4 +9,6 @@ greet_format = "Hello {}"
 
 formatted = greet_format.format(name)
 
-print(intrupution, formatted)
+added = "Hello " + name
+
+print(intrupution, formatted, added)
